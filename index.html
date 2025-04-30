@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <script src="https://kit.fontawesome.com/b7f6cf6d16.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Alson Space Agency</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+
+        <div class="logo">
+            <h1>AlsonX</h1>
+        </div>
+
+        <div class="navcontainer">
+            <ul class="navbar">
+                <li><a  class="active-link" href="#">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <i id="bgChange" class="fa-solid fa-sun"></i>
+        </div>
+        <div id="smallMenu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+
+        <div id="smallNavContainer" class="smallNavContainer">
+            <ul class="smallNav">
+                <li><a  class="active-link" href="#">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <i id="smallbgChange" class="fa-solid fa-sun"></i>
+        </div>
+
+    </header>
+
+    <!-- slideshow -->
+    <section>
+        <div class="mySlides-container">
+            <div class="slide">
+                <img class="imageSlider" src="./images/backiee-55830-landscape.jpg" alt="background_1"/>
+            </div>
+            <div class="slide">
+                <img class="imageSlider" src="./images/backiee-53944-landscape.jpg" alt="background_1"/>
+            </div>
+            <div class="slide">
+                <img class="imageSlider" src="./images/backiee-25778-landscape.jpg" alt="background_1"/>
+            </div>
+            <div class="slide">
+                <img class="imageSlider" src="./images/backiee-26283-landscape.jpg" alt="background_1"/>
+            </div>
+
+            <!-- <div class="change-slide-btns">
+                <span class="move left" style="font-size: 50px; background-color: white; color:blue;">&#129168;</span>
+                <span class="move right" style="font-size: 50px; background-color: white; color:blue">&#129170;</span>
+            </div> -->
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h1 class="title">About</h1>
+        <div class="about-text"> 
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eius rem. In totam ducimus deserunt voluptatem quos! Maxime dicta soluta libero ad magni, harum molestias fuga, quae esse blanditiis eligendi.</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eius rem. In totam ducimus deserunt voluptatem quos! Maxime dicta soluta libero ad magni, harum molestias fuga, quae esse blanditiis eligendi.</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eius rem. In totam ducimus deserunt voluptatem quos! Maxime dicta soluta libero ad magni, harum molestias fuga, quae esse blanditiis eligendi.</p>
+        </div>
+    </section>
+
+
+    <!-- TEAM -->
+    <section class="team">
+        <h1 style="margin-bottom: 15px;" class="title">The Team</h1>
+        <div class="team-container">
+            <div class="team-member-container">
+                <img src="./images/backiee-25701-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+            <div class="team-member-container">
+                <img src="./images/backiee-25778-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+            <div class="team-member-container">
+                <img src="./images/backiee-26283-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+            <div class="team-member-container">
+                <img src="./images/backiee-26777-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+            <div class="team-member-container">
+                <img src="./images/backiee-27616-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+            <div class="team-member-container">
+                <img src="./images/backiee-41853-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+            <div class="team-member-container">
+                <img src="./images/backiee-50516-landscape.jpg" alt="user_1"/>
+                <p>Laura Thompson</p>
+                <button>message</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <div class="form-container">
+            <div class="user-select-button">
+                <button id="signBtn" class="active">SignUp</button>
+                <button id="loginBtn">Login</button>
+            </div>
+        
+            <form action="">
+                <label id="user_name" class="input-container">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Name.."/>
+                </label>
+                <label class="input-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email.."/>
+                </label>
+                <label id="user_phone" class="input-container">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="phone" placeholder="Phone.."/>
+                </label>
+                <label id="user_password" class="input-container">
+                    <i class='bx bxs-lock-alt'></i>
+                    <input type="phone" placeholder="Password.."/>
+                </label>
+                <label id="user_repeat_password" class="input-container">
+                    <i class='bx bxs-lock-alt'></i>
+                    <input type="phone" placeholder="Repeat Password.."/>
+                </label>
+
+                <div class="submit-container">
+                    <input  id="submitButton" type="submit" value="SignUp"/>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+
+        <div class="foot-title">
+            <h1>AlsonX</h1>
+        </div>
+
+        <div>
+            <ul class="footnav">
+                <li><a  class="active-link" href="#">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- social icons -->
+        <div class="social">
+            <h2 style="transition: ease-in-out 0.8s;">Get in Touch</h2>
+            <div class="social-icons">
+                <i class='bx bxl-gmail'></i>
+                <i class='bx bxl-instagram-alt' ></i>
+                <i class='bx bxl-twitter' ></i>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
